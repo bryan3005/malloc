@@ -6,7 +6,7 @@
 /*   By: mbryan <mbryan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/02/12 19:32:17 by mbryan            #+#    #+#             */
-/*   Updated: 2015/02/17 11:55:59 by mbryan           ###   ########.fr       */
+/*   Updated: 2015/02/24 11:32:46 by mbryan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 #include "libft.h"
 #include <sys/mman.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 typedef struct		s_block
 {
